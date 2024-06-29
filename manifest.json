@@ -1,0 +1,13 @@
+{
+    "manifest_version": 1,
+    "name": "Telegram Audio Deleter",
+    "version": "1.0",
+    "description": "Delete all audio messages in Telegram Web",
+    "permissions": ["https://web.telegram.org/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://web.telegram.org/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
