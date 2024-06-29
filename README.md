@@ -16,7 +16,7 @@ This is an extension to delete all the audio sent to a user
 note: this extension only helps you select multiple recordings at once 
 note: make sure you select delete for both user if you want that.
 
-author: Gurjit
+author: itsjustGurjit
 
 ## IT IS FREE TO USE EXTENSION , PLEASE FEEL FREE TO MODIFY AND PUSH THE CODE ##
 ## USE IT AS YOU WANT ,MODIFY AS PER YOUR NEEDS ##
