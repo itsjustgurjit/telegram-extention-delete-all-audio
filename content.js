@@ -32,7 +32,7 @@ function deleteAllAudioMessages() {
                 console.error("Checkbox not found within the popup");
             }
         } else {
-            console.error("Popup not found");
+            console.log("Popup not found");
         }
     }, 1); // Adjust timeout if necessary
 }
@@ -52,7 +52,7 @@ setTimeout(clickDeleteButton_icon, 2);
 // Add a button to the Telegram Web interface to trigger the function
 function addDeleteButton() {
   const button = document.createElement("button");
-  button.textContent = "Delete All Audio";
+  button.textContent = "Select All Audio and delete";
   button.style.position = "fixed";
   button.style.backgroundColor = "#2872fb";
   button.style.top = "40px";
