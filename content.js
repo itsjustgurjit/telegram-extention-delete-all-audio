@@ -41,7 +41,6 @@ function clickDeleteButton() {
     var final_deleteButton = document.querySelector(".popup-button.btn.danger.rp");
     if (final_deleteButton) {
         final_deleteButton.click();
-        console.log("Button found and clicked");
     } else {
         console.error("Delete button not found");
     }
